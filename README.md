@@ -27,7 +27,7 @@ PostgreSQL, необходимо было бы использовать Testcont
 В начале идет проверка базовых случаев. Далее - тесты для проверки консистентности 
 (testLockWithTenOperationPerThread() и testLockWithTenThousandsOperationPerThread)
 
-testLockWithTenThousandsOperationPerThread - создает три потока, запущенных одновременно
+testLockWithTenThousandsOperationPerThread(https://github.com/stepanshvets/TestBank/blob/master/src/test/java/org/example/bank/TestBankAccountApplicationTests.java#191) - создает три потока, запущенных одновременно
 и выполняющих 10000 операций.
 
 Все тесты пройдены.
